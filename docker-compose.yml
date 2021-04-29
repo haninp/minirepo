@@ -1,0 +1,10 @@
+version: "2"
+services:
+  repo:
+    container_name: repository
+    image: minirepo:latest
+    mem_limit: 500M
+    ports:
+      - 8881:80
+    volumes:
+      - './repo-dir/:/usr/local/apache2/htdocs'
