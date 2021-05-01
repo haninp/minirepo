@@ -26,7 +26,8 @@ sh user_add.sh fulan fulanpassword
 cd admin;
 sh user_del.sh fulan
 ```
-## Reset User ( Wipeout all user and add single user as admin )
+## Reset User
+( Wipeout all user and add single user as admin )
 ```
 cd admin;
 sh user_reset.sh admin adminpassword
