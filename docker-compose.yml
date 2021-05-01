@@ -2,7 +2,7 @@ version: "2"
 services:
   repo:
     container_name: repository
-    image: minirepo:latest
+    image: minirepo:2.0
     mem_limit: 500M
     ports:
       - 8881:80
